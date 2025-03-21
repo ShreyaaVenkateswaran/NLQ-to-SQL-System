@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NL to SQL Converter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Natural Language to SQL Query</h1>
+        <form id="query-form">
+            <input type="text" id="nl-query" placeholder="Enter your query..." required>
+            <button type="submit">Generate SQL</button>
+        </form>
+        <div class="output">
+            <p id="sql-query"></p>
+            <p id="query-results"></p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("query-form").addEventListener("submit", async function(event) {
+            event.preventDefault();
+            let userQuery = document.getElementById("nl-query").value;
+
+            let response = await fetch("/query", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ query: userQuery })
+            });
+
+            let data = await response.json();
+
+            document.getElementById("sql-query").innerText = data.sql_query || "";
+            
+            // Handle results properly
+            if (Array.isArray(data.results)) {
+                document.getElementById("query-results").innerText = JSON.stringify(data.results, null, 2);
+            } else if (typeof data.results === "object") {
+                document.getElementById("query-results").innerText = JSON.stringify(data.results);
+            } else {
+                document.getElementById("query-results").innerText = data.results || "";
+            }
+        });
+    </script>
+</body>
+</html>
