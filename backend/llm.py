@@ -3,7 +3,7 @@ import requests
 
 # Configure your Groq API details
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_API_KEY = "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" 
+GROQ_API_KEY = "---api key---" 
 
 def generate_sql_query(natural_language_query):
     """ Sends a natural language query to the Groq LLM and extracts the SQL query. """
