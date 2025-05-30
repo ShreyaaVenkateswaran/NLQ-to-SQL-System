@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #bde0fe;
             text-align: center;
             padding: 20px;
         }
@@ -73,8 +73,14 @@
 <body>
     <div class="container">
         <h2>Generated SQL Query</h2>
-        <p>{{ sql_query }}</p>
+        <p>{{ sql }}</p>
+        {% if message %}
+            <p style="color: green; font-weight: bold;">{{ message }}</p>
+        {% endif %}
 
+        {% if error %}
+            <p style="color: red; font-weight: bold;">{{ error }}</p>
+        {% endif %}
         <h2>Results</h2>
         {% if results %}
             <table>

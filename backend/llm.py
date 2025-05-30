@@ -3,7 +3,7 @@ import requests
 
 # Configure your Groq API details
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_API_KEY = "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" 
+GROQ_API_KEY = "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" 
 
 def generate_sql_query(natural_language_query):
     """ Sends a natural language query to the Groq LLM and extracts the SQL query. """
@@ -38,9 +38,8 @@ def clean_sql_response(llm_response):
     if match:
         return match.group(1).strip()
     
-    return llm_response.split("\n")[0].strip()  # Fallback: First line if no markdown
+    return llm_response.split("\n")[0].strip()  
 
-# Debugging
 if __name__ == "__main__":
     test_query = "display the names of the employees"
     sql_query = generate_sql_query(test_query)
