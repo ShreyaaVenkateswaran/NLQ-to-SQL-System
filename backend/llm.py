@@ -4,7 +4,7 @@ import requests
 # Configure your Groq API details
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 <<<<<<< HEAD
-GROQ_API_KEY = "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" 
+GROQ_API_KEY = "---api key---" 
 =======
 GROQ_API_KEY = "---api key---" 
 >>>>>>> 81fdc3d67a008e20d4a98d5d833196113e2f7c95
