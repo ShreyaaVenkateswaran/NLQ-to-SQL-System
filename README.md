@@ -16,9 +16,7 @@ This is a web-based application that allows users to input **natural language qu
 
 ## 🚀 Demo
 
-![Demo](./Natural Language to SQL.gif)
-
-
+![Demo](./Natural%20Language%20to%20SQL.gif)
 
 ## 💻 Getting Started
 
