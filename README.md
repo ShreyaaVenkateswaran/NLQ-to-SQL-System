@@ -18,8 +18,8 @@ This is a web-based application that allows users to input **natural language qu
 
 <ol>
   <li>
-    <strong>Clone the Repository</strong><br>
-    Command:<br>
+    <strong>Clone the Repository</strong>
+    
     <code>git clone https://github.com/ShreyaaVenkateswaran/NLQ-to-SQL-System.git</code><br>
     <code>cd nl-to-sql</code>
   </li>
@@ -27,7 +27,7 @@ This is a web-based application that allows users to input **natural language qu
   <li>
     <strong>Install Dependencies</strong><br>
     The required dependencies to be downloaded are present in the <code>requirements.txt</code> file.<br>
-    Command:<br>
+    <br>
     <code>cd backend</code><br>
     <code>pip install -r requirements.txt</code>
   </li>
@@ -41,6 +41,7 @@ This is a web-based application that allows users to input **natural language qu
     <strong>Set Up MySQL Database</strong><br>
     Make sure MySQL is installed and running. Create a database (e.g., <code>sql_ai_db</code>) and populate it with some test tables and data using MySQL Workbench or CLI. Then, update your database connection credentials in <code>db.py</code>:
     <pre><code>
+      
 mysql.connector.connect(
     host="localhost",
     user="your_username",
