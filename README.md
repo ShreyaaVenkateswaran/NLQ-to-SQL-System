@@ -14,6 +14,12 @@ This is a web-based application that allows users to input **natural language qu
 
 ---
 
+## 🚀 Demo
+
+![Demo](./demo.gif)
+
+---
+
 ## 💻 Getting Started
 
 <ol style="line-height: 1.8; font-size: 16px;">
@@ -52,6 +58,25 @@ mysql.connector.connect(
 </code>
     </pre>
   </li>
+
+  <li style="margin-bottom: 15px;">
+    <strong>Query to LLM</strong><br>
+    Enter the query in natural language but make sure to specify the table you want to operate on to the llm
+  </li>
+
+  <li style="margin-bottom: 15px;">
+    <strong>Run the App</strong><br>
+     Command:<br>
+    <code>cd backend</code><br>
+    <code>python app.py</code>
+  </li>
+
+ <li style="margin-bottom: 15px;">
+    <strong>Query to LLM</strong><br>
+    Enter the query in natural language but make sure to specify the table you want to operate on to the llm
+  </li>  
 </ol>
+
+
 
   
