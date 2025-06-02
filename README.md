@@ -18,8 +18,8 @@ This is a web-based application that allows users to input **natural language qu
 
 <ol>
   <li>
-    <strong>Clone the Repository</strong>
-    
+    <strong>Clone the Repository</strong><br>
+    Command:<br>
     <code>git clone https://github.com/ShreyaaVenkateswaran/NLQ-to-SQL-System.git</code><br>
     <code>cd nl-to-sql</code>
   </li>
@@ -27,7 +27,7 @@ This is a web-based application that allows users to input **natural language qu
   <li>
     <strong>Install Dependencies</strong><br>
     The required dependencies to be downloaded are present in the <code>requirements.txt</code> file.<br>
-    <br>
+    Command:<br>
     <code>cd backend</code><br>
     <code>pip install -r requirements.txt</code>
   </li>
