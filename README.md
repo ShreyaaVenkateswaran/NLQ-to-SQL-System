@@ -10,34 +10,15 @@ This is a web-based application that allows users to input **natural language qu
 - 🧠 Uses Groq LLM (LLaMA 3) for SQL generation
 - ⚙️ Backend in **Flask**
 - 🗃 Connected to a **MySQL database**
-- 💻 View SQL and results in a user-friendly frontend
+- 🧩 View SQL and results in a user-friendly frontend
 
 ---
 
-## 📂 Project Structure
-
-project/
-│
-├── backend/
-│ ├── app.py # Main Flask app
-│ ├── llm.py # LLM-to-SQL integration using Groq
-│ ├── db.py # MySQL database connection
-│ ├── requirements.txt
-│
-├── frontend/
-│ ├── templates/
-│ │ ├── index.html # Input form
-│ │ └── results.html # SQL + query results
-│ └── static/
-│ └── style.css # Basic styling
-│
-└── README.md
-
-## 🚀 Getting Started
+## 💻 Getting Started
 
 1. Clone the Repository
 command:
-git clone [https://github.com/your-username/nl-to-sql.git](https://github.com/ShreyaaVenkateswaran/NLQ-to-SQL-System.git)
+git clone [https://github.com/your-username/nl-to-sql.git](https://github.com/ShreyaaVenkateswaran/NLQ-to-SQL-System.git "My Project Repository")
 cd nl-to-sql
 
 2. Install Dependencies
