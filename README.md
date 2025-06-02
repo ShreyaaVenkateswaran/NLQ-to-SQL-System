@@ -12,13 +12,13 @@ This is a web-based application that allows users to input **natural language qu
 - 🗃 Connected to a **MySQL database**
 - 🧩 View SQL and results in a user-friendly frontend
 
----
+
 
 ## 🚀 Demo
 
 ![Demo](./demo.gif)
 
----
+
 
 ## 💻 Getting Started
 
