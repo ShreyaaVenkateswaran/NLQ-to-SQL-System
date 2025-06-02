@@ -16,7 +16,7 @@ This is a web-based application that allows users to input **natural language qu
 
 ## 🚀 Demo
 
-![Demo](./demo.gif)
+![Demo](./Natural Language to SQL.gif)
 
 
 
