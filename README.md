@@ -20,53 +20,68 @@ This is a web-based application that allows users to input **natural language qu
 
 ## 💻 Getting Started
 
-<ol style="line-height: 1.8; font-size: 16px;">
-  <li style="margin-bottom: 15px;">
-    <strong>Clone the Repository</strong><br>
-    Command:<br>
+<ol>
+  <li>
+    Clone the Repository  
+    <br><br>
     <code>git clone https://github.com/ShreyaaVenkateswaran/NLQ-to-SQL-System.git</code><br>
     <code>cd nl-to-sql</code>
   </li>
 
-  <li style="margin-bottom: 15px;">
-    <strong>Install Dependencies</strong><br>
-    The required dependencies to be downloaded are present in the <code>requirements.txt</code> file.<br>
-    Command:<br>
+  <br>
+
+  <li>
+    Install Dependencies  
+    <br><br>
+    Navigate to the backend folder and install the dependencies listed in <code>requirements.txt</code>  
+    <br><br>
     <code>cd backend</code><br>
     <code>pip install -r requirements.txt</code>
   </li>
 
-  <li style="margin-bottom: 15px;">
-    <strong>API Setup</strong><br>
-    Modify the <code>GROQ_API_KEY</code> variable in <code>llm.py</code> and replace <code>'---api key---'</code> with your actual Groq API key for the model <code>llama-3.3-70b-versatile</code>.
+  <br>
+
+  <li>
+    API Setup  
+    <br><br>
+    Open <code>llm.py</code> and replace <code>'---api key---'</code> in the <code>GROQ_API_KEY</code> variable with your actual Groq API key for the model <code>llama-3.3-70b-versatile</code>.
   </li>
 
-  <li style="margin-bottom: 15px;">
-    <strong>Set Up MySQL Database</strong><br>
-    Make sure MySQL is installed and running. Create a database (e.g., <code>sql_ai_db</code>) and populate it with test tables and data using MySQL Workbench or CLI.<br>
-    Then, update your database connection credentials in <code>db.py</code>:
-<code>
+  <br>
+
+  <li>
+    Set Up MySQL Database  
+    <br><br>
+    Ensure MySQL is installed and running. Create a database (e.g., <code>sql_ai_db</code>) and populate it with test tables and data using MySQL Workbench or CLI.<br><br>
+    Update database credentials in <code>db.py</code>:
+    <pre><code>
 mysql.connector.connect(
     host="localhost",
     user="your_username",
     password="your_password",
     database="sql_ai_db"
 )
-</code>
+    </code></pre>
   </li>
 
-  <li style="margin-bottom: 15px;">
-    <strong>Run the App</strong><br>
-     Command:<br>
+  <br>
+
+  <li>
+    Run the App  
+    <br><br>
     <code>cd backend</code><br>
     <code>python app.py</code>
   </li>
 
- <li style="margin-bottom: 15px;">
-    <strong>Query to LLM</strong><br>
-    Enter the query in natural language but make sure to specify the table you want to operate on to the llm
-  </li>  
+  <br>
+
+  <li>
+    Query the LLM  
+    <br><br>
+    Enter a natural language query through the UI. The system will automatically identify the relevant table based on your schema and generate an SQL query.
+  </li>
 </ol>
+
 
 
 
