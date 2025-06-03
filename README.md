@@ -16,7 +16,7 @@ This is a web-based application that allows users to input **natural language qu
 
 ## 🚀 Demo
 
-![Demo](./assets/natural_language_to_sql.gif)
+![Demo](./assets/demo.gif)
 
 ## 💻 Getting Started
 
@@ -55,11 +55,6 @@ mysql.connector.connect(
 )
 </code>
     </pre>
-  </li>
-
-  <li style="margin-bottom: 15px;">
-    <strong>Query to LLM</strong><br>
-    Enter the query in natural language but make sure to specify the table you want to operate on to the llm
   </li>
 
   <li style="margin-bottom: 15px;">
