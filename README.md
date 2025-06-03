@@ -9,10 +9,11 @@ This is a web-based application that allows users to input **natural language qu
 - 🗣 Convert plain English into **MySQL queries**
 - 🧠 Uses Groq LLM (LLaMA 3) for SQL generation
 - ⚙️ Backend in **Flask**
-- 🗃 Connected to a **MySQL database**
+- 🗃 Connected to a **MySQL database** showing results dynamically
 - 🧩 View SQL and results in a user-friendly frontend
+- 💻 View results in table present in the MySQL workbench in addition to webpage.
 
-
+---
 
 ## 🚀 Demo
 
