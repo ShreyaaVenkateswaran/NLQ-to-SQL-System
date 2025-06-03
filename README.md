@@ -45,7 +45,6 @@ This is a web-based application that allows users to input **natural language qu
     <strong>Set Up MySQL Database</strong><br>
     Make sure MySQL is installed and running. Create a database (e.g., <code>sql_ai_db</code>) and populate it with test tables and data using MySQL Workbench or CLI.<br>
     Then, update your database connection credentials in <code>db.py</code>:
-    <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">
 <code>
 mysql.connector.connect(
     host="localhost",
@@ -54,7 +53,6 @@ mysql.connector.connect(
     database="sql_ai_db"
 )
 </code>
-    </pre>
   </li>
 
   <li style="margin-bottom: 15px;">
