@@ -22,7 +22,7 @@ This demo shows the insert and delete operations on the table and displays the r
 
 ![Demo](./assets/demo2.gif)
 
-## 💻 Getting Started
+## 💻 Installation
 
 <ol>
   <li>
