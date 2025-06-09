@@ -86,6 +86,25 @@ mysql.connector.connect(
   </li>
 </ol>
 
+##  Future Enhancements
+
+- Improve Table Awareness:
+  Fine-tune the pre-existing model so that users can write natural language queries without explicitly specifying table names; the model will automatically infer the   relevant table(s) based on the provided database schema.
+- Dockerize the App:
+Package the entire app in a Docker container → easy to deploy anywhere (Heroku, AWS, GCP).
+
+## Contributing 
+
+Contributions are welcome! Please follow the standard contribution guidelines and adhere to the code of conduct.
+
+## License
+This project is licensed under the MIT License - see the ![LICENSE](./LICENSE.gif) file for details.
+
+## Acknowledgements
+YOLOv9: For the object detection model.
+Flask: For the web framework.
+
+
 
 
 
