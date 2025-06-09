@@ -101,7 +101,7 @@ Contributions are welcome! Please follow the standard contribution guidelines an
 This project is licensed under the MIT License - see the [MIT License](LICENSE) file for details.
 
 ## Acknowledgements
-- YOLOv9: For the object detection model.
+- GROQ: For access to the llama-3.3-70b-versatile model.
 - Flask: For the web framework.
 
 
