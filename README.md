@@ -1,19 +1,19 @@
-   # 🧠 Natural Language to SQL Converter (Flask + MySQL + Groq API)
+   # Natural Language to SQL Converter (Flask + MySQL + Groq API)
 
 This is a web-based application that allows users to input **natural language queries** and get back **valid MySQL queries** using a Large Language Model (LLM) via the **Groq API**. It also executes the SQL queries and displays the results from a connected MySQL database. All the changes done to the database is reflected on the tables in MySQL workbench as well as in the web page. 
 
 
-## 📌 Features
+##  Features
 
-- 🗣 Convert plain English into **MySQL queries**
-- 🧠 Uses Groq LLM (LLaMA 3) for SQL generation
-- ⚙️ Backend in **Flask**
-- 🗃 Connected to a **MySQL database** showing results dynamically
-- 🧩 View SQL and results in a user-friendly frontend
-- 💻 View results in table present in the MySQL workbench in addition to webpage.
+-  Convert plain English into **MySQL queries**
+-  Uses Groq LLM (LLaMA 3) for SQL generation
+-  Backend in **Flask**
+-  Connected to a **MySQL database** showing results dynamically
+-  View SQL and results in a user-friendly frontend
+-  View results in table present in the MySQL workbench in addition to webpage.
 
 
-## 🚀 Demo
+##  Demo
 This demo shows simple sql operations like displaying entire table, the number of employees in table and employee with minimum salary and demostrates the results in real time on the web page.
 
 ![Demo](./assets/demo.gif)
@@ -22,7 +22,7 @@ This demo shows the insert and delete operations on the table and displays the r
 
 ![Demo](./assets/demo2.gif)
 
-## 💻 Installation
+##  Installation
 
 <ol>
   <li>
