@@ -51,7 +51,7 @@ This is a web-based application that allows users to input **natural language qu
   <li>
     Set Up MySQL Database  
     <br><br>
-    Ensure MySQL is installed and running. Create a database (e.g., <code>sql_ai_db</code>) and populate it with test tables and data using MySQL Workbench or CLI.<br><br>
+    Ensure MySQL is installed and running. Create a database (e.g., <code>sql_ai_db</code>) and populate it with test tables and data using MySQL Workbench.<br><br>
     Update database credentials in <code>db.py</code>:
     <pre><code>
 mysql.connector.connect(
