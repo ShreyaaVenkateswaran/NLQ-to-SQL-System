@@ -98,11 +98,11 @@ Package the entire app in a Docker container → easy to deploy anywhere (Heroku
 Contributions are welcome! Please follow the standard contribution guidelines and adhere to the code of conduct.
 
 ## License
-This project is licensed under the MIT License - see the ![LICENSE](./LICENSE.gif) file for details.
+This project is licensed under the MIT License - see the [MIT License](LICENSE) file for details.
 
 ## Acknowledgements
-YOLOv9: For the object detection model.
-Flask: For the web framework.
+- YOLOv9: For the object detection model.
+- Flask: For the web framework.
 
 
 
