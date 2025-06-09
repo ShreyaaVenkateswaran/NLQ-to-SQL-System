@@ -14,7 +14,7 @@ This is a web-based application that allows users to input **natural language qu
 
 
 ## 🚀 Demo
-
+This Demo shows the sql operation results in real time on a web page.
 ![Demo](./assets/demo.gif)
 
 ## 💻 Getting Started
