@@ -14,7 +14,7 @@ This is a web-based application that allows users to input **natural language qu
 
 
 ## 🚀 Demo
-This demo shows simple sql operations like displaying entire table, the number of employees in table and employee with maximum salary and demostrates the results in real time on the web page.
+This demo shows simple sql operations like displaying entire table, the number of employees in table and employee with minimum salary and demostrates the results in real time on the web page.
 
 ![Demo](./assets/demo.gif)
 
