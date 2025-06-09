@@ -37,10 +37,10 @@ This demo shows the insert and delete operations on the table and displays the r
   <li>
     Install Dependencies  
     <br><br>
-    Navigate to the backend folder and install the dependencies listed in <code>requirements.txt</code>  
+    Navigate to the backend folder and install the dependencies listed in <code>requirements.local.txt</code>  
     <br><br>
     <code>cd backend</code><br>
-    <code>pip install -r requirements.txt</code>
+    <code>pip install -r requirements.local.txt</code>
   </li>
 
   <br>
