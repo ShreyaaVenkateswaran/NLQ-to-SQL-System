@@ -101,8 +101,12 @@ Contributions are welcome! Please follow the standard contribution guidelines an
 This project is licensed under the MIT License - see the [MIT License](LICENSE) file for details.
 
 ## Acknowledgements
-- GROQ: For access to the llama-3.3-70b-versatile model.
-- Flask: For the web framework.
+- [Flask] — for providing a lightweight and flexible backend framework.
+- [SQLAlchemy] — for powerful ORM-based database integration.
+- [MySQL] — for the reliable and robust database engine.
+
+
+
 
 
 
